@@ -1,4 +1,9 @@
-
+.env.example
+BOT_TOKEN=your_bot_token_here
+CHAT_ID=your_chat_id_here
+EMAIL=your_email@example.com
+EMAIL_PASSWORD=your_email_app_password
+RECEIVER_EMAIL=receiver@example.com
 import telebot
 from telebot.async_telebot import AsyncTeleBot
 
